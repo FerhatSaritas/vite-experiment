@@ -2,6 +2,7 @@ lockfileVersion: 5.4
 
 specifiers:
   solid-js: ^1.5.1
+  typescript: ^4.8.2
   vite: ^3.0.9
   vite-plugin-solid: ^2.3.0
 
@@ -9,6 +10,7 @@ dependencies:
   solid-js: 1.5.1
 
 devDependencies:
+  typescript: 4.8.2
   vite: 3.0.9
   vite-plugin-solid: 2.3.0_solid-js@1.5.1+vite@3.0.9
 
@@ -844,6 +846,12 @@ packages:
 
   /ts-toolbelt/9.6.0:
     resolution: {integrity: sha512-nsZd8ZeNUzukXPlJmTBwUAuABDe/9qtVDelJeT/qW0ow3ZS3BsQJtNkan1802aM9Uf68/Y8ljw86Hu0h5IUW3w==}
+    dev: true
+
+  /typescript/4.8.2:
+    resolution: {integrity: sha512-C0I1UsrrDHo2fYI5oaCGbSejwX4ch+9Y5jTQELvovfmFkK3HHSZJB8MSJcWLmCUBzQBchCrZ9rMRV6GuNrvGtw==}
+    engines: {node: '>=4.2.0'}
+    hasBin: true
     dev: true
 
   /update-browserslist-db/1.0.4_browserslist@4.21.2:
